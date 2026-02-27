@@ -1,0 +1,182 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Outdoor Bachata & Salsa Málaga | The Ultimate Cruise Excursion"
+  description="Experience the magic of outdoor Bachata and Salsa in Málaga. Perfect for Mediterranean cruise tourists visiting the port of Málaga. Dance by the sea!"
+>
+  <main class="w-full h-full">
+    <!-- Hero Section with Parallax -->
+    <section 
+      class="parallax-bg min-h-screen flex items-center justify-center relative bg-brand-dark"
+      style="background-image: url('https://images.unsplash.com/photo-1599640842225-85d111c60e6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');"
+    >
+      <div class="absolute inset-0 bg-black/40"></div>
+      
+      <div class="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
+        <div class="glass-dark p-8 md:p-12 rounded-3xl max-w-4xl animate-fade-in-up">
+          <span class="text-brand-secondary font-bold tracking-widest uppercase text-sm mb-4 block">Mediterranean Cruise Excursion</span>
+          <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 text-shadow tracking-tight">
+            Dance <span class="text-brand-primary">Bachata</span> Under the Málaga Sun.
+          </h1>
+          <p class="text-xl text-gray-200 mb-8 max-w-2xl mx-auto text-shadow-sm leading-relaxed">
+            Welcome to Destination Málaga! Step off your cruise ship and into the vibrant rhythm of the city. Join our exclusive outdoor Bachata and Salsa classes right by the port.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="https://bachataalairelibre.com" 
+              class="bg-brand-primary hover:bg-brand-primary/90 text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-brand-primary/30"
+              rel="dofollow"
+            >
+              Book Your Class Now
+            </a>
+            <a 
+              href="#explore" 
+              class="glass hover:bg-white/20 text-white font-bold py-4 px-8 rounded-full transition-all duration-300"
+            >
+              Discover More
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer">
+        <a href="#explore">
+          <svg class="w-8 h-8 text-white opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SEO & Info Section -->
+    <section id="explore" class="py-24 bg-white relative overflow-hidden">
+      <!-- Decorative background elements -->
+      <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-brand-primary/5 blur-3xl"></div>
+      <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 rounded-full bg-brand-secondary/10 blur-3xl"></div>
+      
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="max-w-4xl mx-auto text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">The Best Excursion for <span class="text-brand-secondary">Mediterranean Cruises</span></h2>
+          <div class="h-1 w-24 bg-brand-primary mx-auto rounded"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+          <div>
+            <h3 class="text-3xl font-semibold mb-4">Destination Málaga</h3>
+            <p class="text-gray-600 text-lg leading-relaxed mb-6">
+              When your <strong>Mediterranean Cruise</strong> docks at the beautiful <strong>Port of Málaga</strong>, you find yourself at the gateway to Andalusian culture. Instead of a typical bus tour, why not immerse yourself in the local lifestyle? Destination Málaga is famous for its year-round sunshine, vibrant atmosphere, and passionate people.
+            </p>
+            <p class="text-gray-600 text-lg leading-relaxed mb-6">
+              Enhance your holiday by dancing <strong>outdoor Bachata and Salsa</strong> with international instructors and locals. The sea breeze, the warm sun, and the tropical rhythms create an unforgettable experience just steps away from where your cruise ship rests.
+            </p>
+            <a 
+              href="https://bachataalairelibre.com" 
+              class="text-brand-primary font-bold text-lg hover:underline flex items-center gap-2 group"
+              rel="dofollow"
+            >
+              Explore our Bachata events
+              <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg>
+            </a>
+          </div>
+          
+          <div class="relative">
+            <div class="absolute inset-0 bg-gradient-to-tr from-brand-primary to-brand-secondary rounded-2xl transform rotate-3 scale-105 opacity-20"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1504609774572-880ec163b089?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+              alt="People dancing outdoor salsa and bachata" 
+              class="rounded-2xl shadow-2xl relative z-10 w-full object-cover h-[500px]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alcazaba Parallax Section -->
+    <!-- Alcazaba Parallax Section -->
+    <section 
+      id="alcazaba-section"
+      class="parallax-bg min-h-screen flex items-center relative bg-brand-dark py-24 transition-all duration-1000 bg-center bg-no-repeat bg-cover"
+    >
+      <div class="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-black/80"></div>
+      
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="max-w-3xl glass p-10 md:p-14 rounded-3xl shadow-2xl border-white/20 ml-auto">
+          <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 text-shadow">Views of the <span class="text-brand-primary">Alcazaba</span> & Port</h2>
+          <p class="text-lg text-gray-200 mb-8 leading-relaxed font-light text-shadow-sm">
+            Imagine learning to dance while overlooking the historic Alcazaba, with the Mediterranean Sea and your docked cruise ship creating the perfect backdrop. Our <strong>outdoor Bachata classes</strong> offer not just a dance lesson, but a premium sightseeing experience. Feel the music, connect with your partner, and let Málaga's breathtaking views inspire your movements.
+          </p>
+          
+          <p class="text-lg text-gray-200 mb-8 leading-relaxed font-light text-shadow-sm">
+            Whether you are a beginner or an experienced dancer, taking <strong>Salsa classes al aire libre</strong> in the heart of Málaga is the ultimate cruise shore excursion. Make memories that will outlast your voyage!
+          </p>
+
+          <a 
+            href="https://bachataalairelibre.com" 
+            class="inline-block bg-white text-brand-dark hover:bg-brand-primary hover:text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-xl"
+            rel="dofollow"
+          >
+            Join the Dance Floor
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-gray-400 py-12 border-t border-white/10">
+      <div class="container mx-auto px-6 text-center">
+        <h3 class="text-2xl font-bold text-white mb-4">Outdoor Bachata Málaga</h3>
+        <p class="mb-6">The premier destination for Mediterranean cruise tourists to experience outdoor Salsa and Bachata.</p>
+        <div class="flex justify-center gap-6 mb-8">
+          <a href="https://bachataalairelibre.com" class="hover:text-brand-primary transition-colors" rel="dofollow">Main Website</a>
+          <a href="#" class="hover:text-brand-primary transition-colors">Contact</a>
+          <a href="#" class="hover:text-brand-primary transition-colors">Privacy Policy</a>
+        </div>
+        <p class="text-sm">© {new Date().getFullYear()} Outdoor Bachata Málaga. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<script is:inline>
+  // Array of local background images
+  // Add your own photos to the public/images/fondos folder and list them here
+  const bgImages = [
+    '/images/fondos/fondo2.jpg',
+    '/images/fondos/fondo3.jpg',
+    '/images/fondos/fondo4.jpg',
+  ];
+
+  // Ejecutar inmediatamente al cargar el DOM
+  document.addEventListener('DOMContentLoaded', () => {
+    const alcazabaSection = document.getElementById('alcazaba-section');
+    if (alcazabaSection) {
+      const randomImage = bgImages[Math.floor(Math.random() * bgImages.length)];
+      // Forzar el estilo inline con importante en JS no es necesario, pero sí quitar el hardcoded de Astro arriba
+      alcazabaSection.style.setProperty('background-image', `url('${randomImage}')`, 'important');
+    }
+  });
+</script>
