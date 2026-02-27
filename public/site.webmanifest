@@ -1,0 +1,15 @@
+{
+  "name": "Outdoor Bachata Málaga",
+  "short_name": "Outdoor Bachata",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
