@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "outdoorbachatamalaga.eu"
+        }
+      ],
+      "destination": "https://www.outdoorbachatamalaga.eu/$1",
+      "permanent": true
+    }
+  ]
+}
